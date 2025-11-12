@@ -282,7 +282,7 @@ export default function PartnerForm() {
             <span className="text-accent-yellow font-semibold">
               Acceso prioritario y beneficios exclusivos
             </span>{" "}
-            para socios fundadores.
+            para aliados fundadores.
           </p>
         </div>
 
@@ -325,7 +325,7 @@ export default function PartnerForm() {
 
                 <p className="text-lg lg:text-xl text-text-muted max-w-lg mx-auto leading-relaxed mb-6">
                   Nos pondremos en contacto pronto con más detalles sobre los
-                  beneficios exclusivos para socios fundadores.
+                  beneficios exclusivos para aliados fundadores.
                 </p>
 
                 <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-accent-yellow/20">
@@ -514,7 +514,7 @@ export default function PartnerForm() {
           <p className="text-sm text-white/60">
             ¿Tienes preguntas?{" "}
             <a
-              href="mailto:contacto@appki.com.co"
+              href="mailto:contacto@appkiworld.com"
               className="text-accent-yellow hover:underline font-semibold"
             >
               Contáctanos

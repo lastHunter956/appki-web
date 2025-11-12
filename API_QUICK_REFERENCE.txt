@@ -119,8 +119,8 @@ Mailgun   ←  Alternativa (más económico)
 ```bash
 # SendGrid
 SENDGRID_API_KEY=SG_xxxxxxxxxxxx
-SENDGRID_FROM_EMAIL=noreply@appki.com.co
-SENDGRID_TO_EMAIL=socios@appki.com.co
+SENDGRID_FROM_EMAIL=noreply@appkiworld.com
+SENDGRID_TO_EMAIL=aliados@appkiworld.com
 
 # o Mailgun
 EMAIL_PROVIDER=mailgun
@@ -147,7 +147,7 @@ curl -X POST http://localhost:3000/api/contact \
 Ir a: http://localhost:3000/se-un-socio
 Llenar formulario
 Enviar
-✅ Email automático a socios@appki.com.co
+✅ Email automático a aliados@appkiworld.com
 ```
 
 ---

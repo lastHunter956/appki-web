@@ -87,8 +87,8 @@ El endpoint `/api/contact` está configurado para procesar el formulario de cont
 2. Agregar variables:
    ```bash
    SENDGRID_API_KEY=SG_xxxxxxxxxxxx
-   SENDGRID_FROM_EMAIL=noreply@appki.com.co
-   SENDGRID_TO_EMAIL=socios@appki.com.co
+   SENDGRID_FROM_EMAIL=noreply@appkiworld.com
+   SENDGRID_TO_EMAIL=aliados@appkiworld.com
    NEXT_PUBLIC_SITE_URL=http://localhost:3000
    ```
 3. Reiniciar servidor: `npm run dev`
@@ -259,8 +259,8 @@ Este proyecto está optimizado para colaboración. Para cambios:
 
 ## 📞 Soporte
 
-Para preguntas técnicas: `dev@appki.com.co`
-Para socios: `socios@appki.com.co`
+Para preguntas técnicas: `dev@appkiworld.com`
+Para aliados: `aliados@appkiworld.com`
 
 ## 📄 Licencia
 

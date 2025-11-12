@@ -100,8 +100,7 @@ export default function SEOSection() {
             {/* Quote/Tagline */}
             <div className="pl-6 border-l-4 border-accent-yellow/50">
               <p className="text-lg sm:text-xl font-poppins font-semibold text-white italic">
-                "Transformando el turismo de Cartagena, un servicio digital a la
-                vez."
+                "Appki - Dónde todo se conecta"
               </p>
             </div>
 
@@ -148,7 +147,7 @@ export default function SEOSection() {
                 {[
                   {
                     icon: "linkedin",
-                    href: "https://www.linkedin.com/in/claudio-polizzi/",
+                    href: "https://www.linkedin.com/in/claudio-polizzi-/",
                   },
                   {
                     icon: "instagram",

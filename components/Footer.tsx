@@ -45,7 +45,7 @@ export default function Footer() {
               {[
                 { href: "/", label: "Inicio" },
                 { href: "/quienes-somos", label: "Quiénes Somos" },
-                { href: "/se-un-socio", label: "Sé un Socio" },
+                { href: "/se-un-socio", label: "Sé un aliado" },
               ].map((link, idx) => (
                 <li key={idx}>
                   <Link
@@ -66,7 +66,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-4 mb-8">
               <a
-                href="mailto:contacto@appki.com.co"
+                href="mailto:contacto@appkiworld.com"
                 className="flex items-center gap-3 text-text-muted hover:text-accent-yellow transition-colors duration-300 group"
               >
                 <svg
@@ -82,7 +82,7 @@ export default function Footer() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span className="text-sm">contacto@appki.com.co</span>
+                <span className="text-sm">contacto@appkiworld.com</span>
               </a>
             </div>
 

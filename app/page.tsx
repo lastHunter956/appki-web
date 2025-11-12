@@ -27,7 +27,7 @@ const services = [
     ),
     title: "Valerio Chatbot",
     description:
-      "Asistente inteligente impulsado por IA avanzada que revoluciona tu experiencia en Cartagena. Obtén recomendaciones personalizadas basadas en tus preferencias, descubre lugares auténticos lejos de las rutas turísticas convencionales y navega la ciudad con total confianza gracias a nuestro sistema antifraude.",
+      "Asistente de viaje con IA: Te ayuda planear itinerarios, descubrir joyas locales y conectar con todas las mejores experiencias locales. Conversa con Valerio y arma el mejor día en Cartagena sin perder tiempo.",
     detailedDescription:
       "Con acceso a una base de datos actualizada constantemente y validada por expertos locales, te conecta con los mejores restaurantes, sitios históricos y actividades que se adaptan a tu estilo.",
     features: [
@@ -60,9 +60,9 @@ const services = [
         />
       </svg>
     ),
-    title: "Safe Change",
+    title: "Appki Change",
     description:
-      "Servicio de cambio de divisas premium con total transparencia y seguridad garantizada. Olvídate de casas de cambio dudosas y tarifas ocultas. Recibe tu dinero directamente en tu hotel con las mejores tasas del mercado, respaldado por instituciones financieras certificadas y con cobertura de seguro completa.",
+      "Cambio de moneda discreto y confiable; recibe efectivo en la puerta del hotel. Sin filas, sin sorpresas, recibe una entrega segura y sin tarifas ocultas.",
     detailedDescription:
       "Nuestro equipo de expertos financieros monitorea las tasas en tiempo real para ofrecerte siempre las condiciones más competitivas, con entrega segura y rastreable.",
     features: [
@@ -88,9 +88,9 @@ const services = [
         />
       </svg>
     ),
-    title: "eSIM Instantánea",
+    title: "Appki eSIM",
     description:
-      "Conectividad móvil de alta velocidad desde el momento exacto en que tu avión aterriza. Sin filas, sin complicaciones, sin sorpresas. Activa tu eSIM antes de viajar y disfruta de cobertura 5G premium con proveedores internacionales certificados, máxima seguridad de datos y planes flexibles adaptados a la duración de tu estadía.",
+      "Conéctate al aterrizar con eSIM segura; datos protegidos y cobertura confiable. Internet inmediato con proveedores de confianza y protección de datos.",
     detailedDescription:
       "Nuestra tecnología eSIM te brinda acceso instantáneo a las mejores redes móviles de Colombia con configuración automática y soporte técnico especializado.",
     features: [
@@ -116,9 +116,9 @@ const services = [
         />
       </svg>
     ),
-    title: "Appki Negocios",
+    title: "Appki recomendados",
     description:
-      "Plataforma B2B empresarial de última generación que conecta tu negocio turístico con miles de viajeros calificados. Incrementa tu visibilidad, optimiza tus operaciones y maximiza tus ingresos con herramientas de analítica avanzada, gestión automatizada de reservas y acceso a una red premium de clientes internacionales verificados.",
+      "Sácale todo el jugo a tu estadia de manera segura, disfruta de las mejores experiencias locales con los mejores precios, todo en un solo lugar, sin pagos sorpresas y con la seguridad que mereces.",
     detailedDescription:
       "Diseñada específicamente para hoteles, restaurantes, tours y servicios turísticos en Cartagena.",
     features: [
@@ -197,6 +197,61 @@ export default function Home() {
                 features={service.features}
               />
             ))}
+          </div>
+
+          {/* Appki Pass Premium Card */}
+          <div className="relative group">
+            {/* Background glow effects */}
+            <div className="absolute inset-0 bg-gradient-to-r from-accent-yellow/20 via-accent-blue/20 to-accent-yellow/20 rounded-3xl blur-2xl opacity-50 group-hover:opacity-75 transition-opacity duration-500" />
+
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-deep/80 via-brand-black/90 to-brand-deep/80 backdrop-blur-xl border-2 border-accent-yellow/30 hover:border-accent-yellow/50 transition-all duration-500 shadow-2xl hover:shadow-accent-yellow/30">
+              {/* Decorative quote marks */}
+              <div className="absolute top-6 left-6 sm:top-8 sm:left-8 text-accent-yellow/20 text-6xl sm:text-7xl md:text-8xl font-serif leading-none pointer-events-none">
+                "
+              </div>
+              <div className="absolute bottom-6 right-6 sm:bottom-8 sm:right-8 text-accent-yellow/20 text-6xl sm:text-7xl md:text-8xl font-serif leading-none pointer-events-none rotate-180">
+                "
+              </div>
+
+              {/* Animated border effect */}
+              <div className="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-accent-yellow via-accent-blue to-accent-yellow bg-[length:200%_100%] animate-gradient-sweep opacity-30" />
+              </div>
+
+              {/* Content */}
+              <div className="relative z-10 px-6 sm:px-12 md:px-16 lg:px-20 py-12 sm:py-16 md:py-20 text-center">
+                {/* Icon/Badge */}
+                <div className="flex justify-center mb-10 sm:mb-12">
+                  <div className="relative px-8 py-3 border border-accent-yellow/20 rounded-full">
+                    <span className="text-accent-yellow/80 font-medium text-xs sm:text-sm uppercase tracking-[0.3em]">
+                      Exclusivo
+                    </span>
+                  </div>
+                </div>
+                {/* Main Text */}
+                <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-poppins font-bold mb-6 sm:mb-8 leading-tight px-4">
+                  <span className="text-white italic">
+                    <span style={{ color: "#FFC700" }}>Appki</span> Pass
+                  </span>
+                  <span className="text-white italic">, </span>
+                  <span
+                    className="bg-gradient-to-r from-accent-yellow from-30% via-white via-50% to-accent-yellow to-70% bg-clip-text text-transparent animate-shimmer-gradient italic"
+                    style={{ backgroundSize: "400% 100%" }}
+                  >
+                    tu llave a descuentos exclusivos
+                  </span>
+                  <span className="text-white italic">.</span>
+                </h3>
+
+                {/* Description */}
+                <p className="text-base sm:text-lg md:text-xl text-white/70 max-w-4xl mx-auto leading-relaxed mb-8 sm:mb-10">
+                  Disfruta beneficios exclusivos en restaurantes, tours y
+                  actividades verificadas de Cartagena. Descuentos reales en
+                  todo nuestro comercio aliado, sin letra pequeña ni comisiones
+                  ocultas.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

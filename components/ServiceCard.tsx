@@ -77,6 +77,22 @@ export default function ServiceCard({
     return <div className="w-10 h-10 sm:w-12 sm:h-12 text-white">{icon}</div>;
   };
 
+  const renderTitle = (titleText: string, className: string) => {
+    if (titleText.includes("Appki")) {
+      const parts = titleText.split("Appki");
+      return (
+        <h3 className={className}>
+          {parts[0]}
+          <span style={{ color: "#FFC700", WebkitTextFillColor: "#FFC700" }}>
+            Appki
+          </span>
+          {parts[1]}
+        </h3>
+      );
+    }
+    return <h3 className={className}>{titleText}</h3>;
+  };
+
   return (
     <div
       ref={cardRef}
@@ -108,9 +124,10 @@ export default function ServiceCard({
               </div>
 
               {/* Title */}
-              <h3 className="text-xl sm:text-2xl lg:text-3xl font-poppins font-bold text-white mb-4 leading-tight">
-                {title}
-              </h3>
+              {renderTitle(
+                title,
+                "text-xl sm:text-2xl lg:text-3xl font-poppins font-bold text-white mb-4 leading-tight"
+              )}
 
               {/* Description */}
               <p className="text-sm sm:text-base lg:text-lg text-text-muted leading-relaxed mb-6 flex-grow">
@@ -170,9 +187,10 @@ export default function ServiceCard({
                     </div>
                   )}
                 </div>
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-poppins font-bold bg-gradient-to-r from-accent-yellow to-white bg-clip-text text-transparent">
-                  {title}
-                </h3>
+                {renderTitle(
+                  title,
+                  "text-lg sm:text-xl lg:text-2xl font-poppins font-bold bg-gradient-to-r from-accent-yellow to-white bg-clip-text text-transparent"
+                )}
               </div>
 
               {/* Detailed Description */}

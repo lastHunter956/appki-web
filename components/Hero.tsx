@@ -50,23 +50,23 @@ export default function Hero() {
 
             {/* Subheadline */}
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-text-muted leading-relaxed max-w-xl">
-              La primera herramienta digital que conecta y fortalece el mercado
-              turístico de Cartagena.
+              La primera herramienta digital que protege al turista y fortalece
+              el mercado local en Cartagena.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 sm:pt-6">
               <Link
-                href="#servicios"
+                href="/se-un-socio"
                 className="group px-8 sm:px-10 py-3 sm:py-4 bg-accent-yellow text-brand-black font-bold text-sm sm:text-base rounded-2xl transition-all duration-300 hover:shadow-xl hover:shadow-accent-yellow/30 hover:-translate-y-0.5 text-center"
               >
-                Explorar servicios
+                Ser aliados
               </Link>
               <Link
-                href="/se-un-socio"
+                href="#servicios"
                 className="group px-8 sm:px-10 py-3 sm:py-4 bg-transparent border-2 border-accent-blue text-accent-blue font-bold text-sm sm:text-base rounded-2xl transition-all duration-300 hover:bg-accent-blue hover:text-white hover:shadow-xl hover:shadow-accent-blue/30 hover:-translate-y-0.5 text-center"
               >
-                Hazte socio
+                Explorar servicios
               </Link>
             </div>
           </div>

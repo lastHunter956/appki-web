@@ -192,7 +192,7 @@ bg-clip-text text-transparent
 animate-shimmer-gradient
 ```
 
-**Uso:** Títulos principales ("Early Adopter", "Socios", "Frecuentes"), efecto de reflejo premium.
+**Uso:** Títulos principales ("Early Adopter", "aliados", "Frecuentes"), efecto de reflejo premium.
 
 ### 2. Card Title Hover Gradient
 

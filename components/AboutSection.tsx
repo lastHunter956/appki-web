@@ -353,7 +353,7 @@ export default function AboutSection() {
             },
             {
               number: "100%",
-              label: "Sin Comisiones",
+              label: "Sin Comisiones (primer mes)",
               icon: (
                 <svg
                   className="w-8 h-8 text-accent-yellow"

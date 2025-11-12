@@ -301,7 +301,7 @@ export default function QuienesSomos() {
     },
     {
       number: "100%",
-      label: "Sin Comisiones",
+      label: "Sin Comisiones (primer mes)",
       icon: (
         <svg
           className="w-8 h-8 text-accent-yellow"
@@ -478,16 +478,16 @@ export default function QuienesSomos() {
             </div>
 
             <div>
-              <p className="text-lg lg:text-xl text-white/80 leading-relaxed mb-6">
+              <p className="text-lg lg:text-xl text-white/80 leading-relaxed mb-6 text-justify">
                 Crear un{" "}
-                <span className="text-accent-yellow font-semibold">
+                <span className="text-accent-yellow font-semibold justify-center">
                   ecosistema digital seguro
                 </span>{" "}
                 que conecte turistas con negocios verificados en Cartagena,
                 eliminando intermediarios innecesarios y empoderando a
                 emprendedores locales con herramientas de primera clase.
               </p>
-              <p className="text-base lg:text-lg text-white/60 leading-relaxed">
+              <p className="text-base lg:text-lg text-white/60 leading-relaxed text-justify">
                 Democratizamos el acceso al turismo digital, permitiendo que
                 cada comercio, sin importar su tamaño, compita en igualdad de
                 condiciones con las grandes plataformas internacionales.
@@ -498,10 +498,10 @@ export default function QuienesSomos() {
           {/* Vision - Premium */}
           <div
             ref={visionRef}
-            className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center"
+            className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center text-justify"
           >
             <div className="order-2 lg:order-1">
-              <p className="text-lg lg:text-xl text-white/80 leading-relaxed mb-6">
+              <p className="text-lg lg:text-xl text-white/80 leading-relaxed mb-6 text-justify">
                 Ser la{" "}
                 <span className="text-accent-blue font-semibold">
                   plataforma número uno en América Latina
@@ -509,7 +509,7 @@ export default function QuienesSomos() {
                 para conexiones turísticas seguras y auténticas, modelo de
                 sostenibilidad y confianza para otros destinos.
               </p>
-              <p className="text-base lg:text-lg text-white/60 leading-relaxed">
+              <p className="text-base lg:text-lg text-white/60 leading-relaxed text-justify">
                 Expandir nuestro impacto a las principales ciudades turísticas
                 de la región, manteniendo siempre el compromiso con la
                 autenticidad local y el desarrollo económico sostenible.
@@ -645,9 +645,9 @@ export default function QuienesSomos() {
                   </h2>
                 </div>
 
-                <p className="text-lg lg:text-xl text-white/80 leading-relaxed mb-6">
+                <p className="text-lg lg:text-xl text-white/80 leading-relaxed mb-6 text-justify">
                   Nuestro equipo está compuesto por{" "}
-                  <span className="text-accent-yellow font-semibold">
+                  <span className="text-accent-yellow font-semibold text-justify">
                     desarrolladores, diseñadores y especialistas en turismo
                   </span>{" "}
                   que conocen y aman Cartagena. Trabajamos día a día para
@@ -655,10 +655,10 @@ export default function QuienesSomos() {
                   negocios locales.
                 </p>
 
-                <p className="text-base lg:text-lg text-white/60 leading-relaxed">
+                <p className="text-base lg:text-lg text-white/60 leading-relaxed text-justify">
                   Con sede en Cartagena y perspectiva global, construimos
                   soluciones pensadas para el mercado local pero con{" "}
-                  <span className="text-accent-blue font-semibold">
+                  <span className="text-accent-blue font-semibold text-justify">
                     estándares internacionales
                   </span>
                   .
@@ -705,14 +705,14 @@ export default function QuienesSomos() {
 
           <p className="cta-element text-xl lg:text-2xl text-white/70 mb-10 leading-relaxed font-light max-w-3xl mx-auto">
             Si eres un negocio en Cartagena o crees en nuestra misión, te
-            invitamos a ser socio de Appki.
+            invitamos a ser aliado de Appki.
           </p>
 
           <Link
             href="/se-un-socio"
             className="cta-element group inline-flex items-center gap-3 px-10 py-5 rounded-xl bg-gradient-to-r from-accent-yellow via-yellow-400 to-accent-yellow text-brand-black font-bold text-lg shadow-[0_8px_24px_rgba(255,199,0,0.25)] hover:shadow-[0_12px_32px_rgba(255,199,0,0.4)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
           >
-            <span>Convertirse en socio</span>
+            <span>Convertirse en aliado</span>
             <svg
               className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300"
               fill="none"

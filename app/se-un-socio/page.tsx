@@ -79,7 +79,7 @@ export default function SeUnSocio() {
           </h1>
           <p className="hero-subtitle text-lg sm:text-xl md:text-2xl text-white/80 leading-relaxed max-w-3xl mx-auto px-4 mb-8 sm:mb-12">
             Acceso prioritario a todas las herramientas de Appki y beneficios
-            exclusivos para socios fundadores.
+            exclusivos para aliados fundadores.
           </p>
 
           {/* Scroll Indicator - Professional */}
@@ -127,7 +127,7 @@ export default function SeUnSocio() {
               className="block mt-2 bg-gradient-to-r from-accent-yellow from-30% via-white via-50% to-accent-yellow to-70% bg-clip-text text-transparent animate-shimmer-gradient pb-2 tracking-tight"
               style={{ backgroundSize: "400% 100%", lineHeight: "1.3" }}
             >
-              Socios
+              Aliados
             </span>
           </h2>
 
@@ -171,7 +171,7 @@ export default function SeUnSocio() {
                 ),
                 title: "Comisiones Reducidas",
                 description:
-                  "Tarifa especial durante los primeros 6 meses como socio fundador.",
+                  "Tarifa especial durante el primer mes como aliado.",
               },
               {
                 icon: (
@@ -249,7 +249,7 @@ export default function SeUnSocio() {
                     />
                   </svg>
                 ),
-                title: "Red de Socios",
+                title: "Red de aliados",
                 description:
                   "Comunidad cerrada de emprendedores para colaborar y crecer juntos.",
               },
@@ -316,16 +316,16 @@ export default function SeUnSocio() {
           <div className="space-y-4 sm:space-y-6">
             {[
               {
-                q: "¿Cuál es el costo de ser socio?",
+                q: "¿Cuál es el costo de ser aliado?",
                 a: "Los Early Adopters tienen tarifa especial. Nos contactaremos con detalles personalizados después de llenar el formulario.",
               },
               {
-                q: "¿Qué tipos de negocios pueden ser socios?",
+                q: "¿Qué tipos de negocios pueden ser aliados?",
                 a: "Restaurantes, hoteles, tours, tiendas, bares, entretenimiento y cualquier negocio en el sector turístico de Cartagena.",
               },
               {
                 q: "¿Necesito experiencia tecnológica?",
-                a: "No. Appki es diseñado para ser muy fácil de usar. Ofrecemos capacitación completa para todos nuestros socios.",
+                a: "No. Appki es diseñado para ser muy fácil de usar. Ofrecemos capacitación completa para todos nuestros aliados.",
               },
               {
                 q: "¿Cuándo puedo empezar?",
@@ -333,7 +333,11 @@ export default function SeUnSocio() {
               },
               {
                 q: "¿Qué pasa si tengo problemas técnicos?",
-                a: "Nuestro equipo de soporte estará contigo. Chat, email y llamadas disponibles 24/7 para socios.",
+                a: "Nuestro equipo de soporte estará contigo. Chat, email y llamadas disponibles 24/7 para aliados.",
+              },
+              {
+                q: "¿Qué pasa si quiero ser socio inversionista?",
+                a: "Contactate con nosotros a través del email socios@appkiworld.com para más información sobre oportunidades de inversión.",
               },
             ].map((faq, index) => (
               <div
@@ -357,10 +361,10 @@ export default function SeUnSocio() {
             <p className="text-white/70 text-base sm:text-lg mb-4">
               ¿Más preguntas? Escríbenos a{" "}
               <a
-                href="mailto:socios@appki.com.co"
+                href="mailto:aliados@appkiworld.com"
                 className="text-accent-blue hover:text-accent-yellow transition-colors duration-300 font-semibold break-all"
               >
-                socios@appki.com.co
+                aliados@appkiworld.com
               </a>
             </p>
           </div>

@@ -75,7 +75,7 @@ export default function Header() {
             {[
               { href: "/", label: "Inicio" },
               { href: "/quienes-somos", label: "Quiénes somos" },
-              { href: "/se-un-socio", label: "Ser socio" },
+              { href: "/se-un-socio", label: "ser aliado" },
             ].map((item) => (
               <Link
                 key={item.href}
@@ -96,7 +96,7 @@ export default function Header() {
               href="/se-un-socio"
               className="hidden sm:flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-accent-yellow to-yellow-500 text-brand-black font-bold text-sm rounded-xl hover:shadow-xl hover:shadow-accent-yellow/50 hover:scale-105 transition-all duration-300 group"
             >
-              <span>Comenzar</span>
+              <span>Ser aliados</span>
               <svg
                 className="w-4 h-4 group-hover:translate-x-1 transition-transform"
                 fill="none"
@@ -209,7 +209,7 @@ export default function Header() {
               },
               {
                 href: "/se-un-socio",
-                label: "Ser socio",
+                label: "ser aliado",
                 icon: "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
               },
             ].map((item, index) => (

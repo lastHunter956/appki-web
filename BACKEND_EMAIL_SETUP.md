@@ -33,7 +33,7 @@ Hay 3 opciones. Elige una:
 EMAIL_SERVICE=gmail
 EMAIL_USER=tu-email@gmail.com
 EMAIL_PASSWORD=tu-contraseña-app-gmail
-CONTACT_EMAIL=socios@appki.com.co
+CONTACT_EMAIL=aliados@appkiworld.com
 ```
 
 **¿Cómo obtener "contraseña de app" de Gmail?**
@@ -53,7 +53,7 @@ CONTACT_EMAIL=socios@appki.com.co
 EMAIL_SERVICE=outlook
 EMAIL_USER=tu-email@hotmail.com
 EMAIL_PASSWORD=tu-contraseña
-CONTACT_EMAIL=socios@appki.com.co
+CONTACT_EMAIL=aliados@appkiworld.com
 ```
 
 #### Opción C: SMTP Personalizado
@@ -69,7 +69,7 @@ EMAIL_PASSWORD=tu-contraseña
 SMTP_HOST=smtp.tuservidor.com
 SMTP_PORT=587
 SMTP_SECURE=false
-CONTACT_EMAIL=socios@appki.com.co
+CONTACT_EMAIL=aliados@appkiworld.com
 ```
 
 ### Paso 3: Reiniciar servidor
@@ -144,7 +144,7 @@ curl -X POST http://localhost:3000/api/contact \
 EMAIL_SERVICE=gmail
 EMAIL_USER=mi.email@gmail.com
 EMAIL_PASSWORD=abcdabcdabcdabcd
-CONTACT_EMAIL=socios@appki.com.co
+CONTACT_EMAIL=aliados@appkiworld.com
 ```
 
 #### 4. Verificar funcionamiento
@@ -174,7 +174,7 @@ npm run dev
 EMAIL_SERVICE=outlook
 EMAIL_USER=mi.email@outlook.com
 EMAIL_PASSWORD=mi-contraseña
-CONTACT_EMAIL=socios@appki.com.co
+CONTACT_EMAIL=aliados@appkiworld.com
 ```
 
 #### 3. Desabilitar autenticación moderna (si es necesario)
@@ -209,7 +209,7 @@ EMAIL_PASSWORD=tu-contraseña-smtp
 SMTP_HOST=mail.tudominio.com     # Ejemplo: mail.Appki.co
 SMTP_PORT=587                     # O 465 para SSL
 SMTP_SECURE=false                 # true si usas puerto 465
-CONTACT_EMAIL=socios@appki.com.co
+CONTACT_EMAIL=aliados@appkiworld.com
 ```
 
 ---
@@ -295,7 +295,7 @@ Vercel Dashboard > Settings > Environment Variables
 EMAIL_SERVICE=gmail
 EMAIL_USER=tu-email@gmail.com
 EMAIL_PASSWORD=tu-contraseña-app
-CONTACT_EMAIL=socios@appki.com.co
+CONTACT_EMAIL=aliados@appkiworld.com
 ```
 
 2. **Deploy:**
