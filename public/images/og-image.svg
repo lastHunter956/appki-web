@@ -1,0 +1,32 @@
+<!-- SVG Placeholder para og-image.jpg (Open Graph) -->
+<!-- Tamaño: 1200x630px (recomendado para OG) -->
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ogGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b0b0d;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0AA5FF;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#FFD24D;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogGradient)"/>
+  
+  <!-- Main text -->
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#FFD24D" text-anchor="middle">
+    Appki.
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="330" font-family="Arial, sans-serif" font-size="40" fill="#0AA5FF" text-anchor="middle">
+    Cartagena Segura
+  </text>
+  
+  <!-- Description -->
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="24" fill="#E6E7E8" text-anchor="middle">
+    Conectando turistas y negocios
+  </text>
+  
+  <!-- Footer -->
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="18" fill="#9AA0A6" text-anchor="middle">
+    Appki.co
+  </text>
+</svg>

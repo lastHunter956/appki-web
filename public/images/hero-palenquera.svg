@@ -1,0 +1,17 @@
+<!-- SVG Placeholder para hero-palenquera.jpg -->
+<!-- Este es un placeholder. Reemplazar con la imagen real en /public/images/hero-palenquera.jpg -->
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b0b0d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1114;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#gradient1)"/>
+  <text x="960" y="540" font-family="Arial" font-size="48" fill="#FFD24D" text-anchor="middle" dy=".3em">
+    [Placeholder: Mujer Palenquera - Cartagena]
+  </text>
+  <text x="960" y="600" font-family="Arial" font-size="24" fill="#9AA0A6" text-anchor="middle" dy=".3em">
+    Reemplazar con imagen real
+  </text>
+</svg>
