@@ -266,7 +266,7 @@ export default function Header() {
               className="flex items-center justify-center gap-2 w-full px-8 py-5 bg-gradient-to-r from-accent-yellow to-yellow-500 text-brand-black font-bold text-lg rounded-2xl shadow-2xl shadow-accent-yellow/30 hover:scale-105 transition-all duration-300"
               onClick={handleCloseMenu}
             >
-              <span>Comenzar ahora</span>
+              <span>Ser aliado</span>
               <svg
                 className="w-5 h-5"
                 fill="none"
@@ -280,14 +280,6 @@ export default function Header() {
                   d="M13 7l5 5m0 0l-5 5m5-5H6"
                 />
               </svg>
-            </Link>
-
-            <Link
-              href="#servicios"
-              className="flex items-center justify-center gap-2 w-full px-8 py-5 bg-transparent border-2 border-accent-blue text-accent-blue font-bold text-lg rounded-2xl hover:bg-accent-blue hover:text-white transition-all duration-300"
-              onClick={handleCloseMenu}
-            >
-              <span>Explorar servicios</span>
             </Link>
           </div>
         </div>
